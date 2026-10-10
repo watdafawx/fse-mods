@@ -1,0 +1,46 @@
+{
+  "mods": [
+    {
+      "name": "ai-crew",
+      "title": "AI Crew",
+      "author": "mtopfox",
+      "description": "Helper characters that build your ghosts and clear deconstruction marks on their own like construction bots (hand-crafting what is missing), and mine, craft and fetch on order, from a panel (top left). With the fse loader they also chat through a free LLM and speak out loud, and ADA announces your milestones. Single player.",
+      "repo": "https://github.com/watdafawx/ai-crew",
+      "version": "0.11.0",
+      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.11.0/ai-crew_0.11.0.zip",
+      "sha256": "1d1ba0c35d0facf6aac1b8546a98bd9cbb316076be0388e7e4867821cb5bec5f",
+      "fse": "0.10.0",
+      "plugins": [
+        "py"
+      ],
+      "dependencies": [
+        "base >= 2.0",
+        "? fse-std"
+      ],
+      "pypath": true
+    },
+    {
+      "name": "smart-research-queue",
+      "title": "Smart Research Queue",
+      "author": "mtopfox",
+      "description": "Ultimate Research Queue's GUI with Auto Research built in: queue technologies (prerequisites included) and, when the queue runs dry, pick the next research from your goals or by strategy, limited to the science packs you allow or actually produce. Fork of Ultimate Research Queue for 2.x and Auto Research (both MIT).",
+      "repo": "https://github.com/watdafawx/smart-research-queue",
+      "version": "1.1.5",
+      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.1.5/smart-research-queue_1.1.5.zip",
+      "sha256": "2ee5d0aa376f6bda7479513de65e25a5490c0ea06f2e274d76b13973682d3e64",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base >= 2.0.28",
+        "flib >= 0.16.1",
+        "? RecipeBook >= 4.0.0",
+        "? fse-std",
+        "! UltimateResearchQueue2",
+        "! UltimateResearchQueue",
+        "! sonaxaton-research-queue",
+        "! some-autoresearch",
+        "! auto-research"
+      ]
+    }
+  ]
+}
