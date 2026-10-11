@@ -6,9 +6,9 @@
       "author": "mtopfox",
       "description": "Helper characters that build your ghosts and clear deconstruction marks on their own like construction bots (hand-crafting what is missing), and mine, craft and fetch on order, from a panel (top left). With the fse loader they also chat through a free LLM and speak out loud, and ADA announces your milestones. Single player.",
       "repo": "https://github.com/watdafawx/ai-crew",
-      "version": "0.11.0",
-      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.11.0/ai-crew_0.11.0.zip",
-      "sha256": "1d1ba0c35d0facf6aac1b8546a98bd9cbb316076be0388e7e4867821cb5bec5f",
+      "version": "0.12.2",
+      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.12.2/ai-crew_0.12.2.zip",
+      "sha256": "dfd6f42a46bd5a36f0b1155d9d6f8a929e700933f0c3b45d22b9646c9015dc46",
       "fse": "0.10.0",
       "plugins": [
         "py"
@@ -25,9 +25,9 @@
       "author": "mtopfox",
       "description": "A radial menu for anything you do often (port of the Minecraft mod EZ Actions by z2six). Hold U, flick the mouse toward a slice, let go. Slices fire any of the game's controls or another mod's keybind, a shortcut-bar shortcut, a direct hotkey, chat commands, or equip a saved loadout. Nested bundles with their own keys, an in-game editor, import/export, and a remote API. Controls, hotkeys and commands need the FSE loader.",
       "repo": "https://github.com/watdafawx/ez-actions",
-      "version": "0.2.3",
-      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.2.3/ez-actions_0.2.3.zip",
-      "sha256": "9502fb03a55f566dc051f0b216dd188831783e4966d22eec7a367a12171d08d9",
+      "version": "0.2.4",
+      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.2.4/ez-actions_0.2.4.zip",
+      "sha256": "ccd0d13b7fce25fbedb61814b042b9a21a031862d8b73ded6669d24d278fcadd",
       "fse": "0.14.0",
       "plugins": [
         "std",
@@ -44,9 +44,9 @@
       "author": "mtopfox",
       "description": "Ultimate Research Queue's GUI with Auto Research built in: queue technologies (prerequisites included) and, when the queue runs dry, pick the next research from your goals or by strategy, limited to the science packs you allow or actually produce. Fork of Ultimate Research Queue for 2.x and Auto Research (both MIT).",
       "repo": "https://github.com/watdafawx/smart-research-queue",
-      "version": "1.1.5",
-      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.1.5/smart-research-queue_1.1.5.zip",
-      "sha256": "2ee5d0aa376f6bda7479513de65e25a5490c0ea06f2e274d76b13973682d3e64",
+      "version": "1.1.6",
+      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.1.6/smart-research-queue_1.1.6.zip",
+      "sha256": "f39a86d6b63fa8347a0c200c0bf52a5e6875e4df4cb3896ceb01ca89be9042ef",
       "fse": "0.1.0",
       "plugins": [],
       "dependencies": [
@@ -67,9 +67,9 @@
       "author": "mtopfox",
       "description": "A trash slot attached to your inventory (port of the Minecraft mod TrashSlot). Hover a stack and press Delete to throw it in; the next delete destroys what was there. Shift+Delete throws in every stack of that item. Click the slot to take it back, Delete on it destroys it for good. The slot sits beside the window or floats anywhere; with FSE, drag it. Safe to add or remove at any time.",
       "repo": "https://github.com/watdafawx/trash-slot",
-      "version": "0.3.2",
-      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.2/trash-slot_0.3.2.zip",
-      "sha256": "e8b435e21c833b2e770a660085501b5990d983ff28af24ea6522b495b781f630",
+      "version": "0.3.3",
+      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.3/trash-slot_0.3.3.zip",
+      "sha256": "9110938aee8b78807b683f7c2db1110a8856b1425ea947f93d55f4fa62a171e7",
       "fse": "0.10.0",
       "plugins": [
         "std"
