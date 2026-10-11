@@ -25,9 +25,9 @@
       "author": "mtopfox",
       "description": "A radial menu for anything you do often (port of the Minecraft mod EZ Actions by z2six). Hold U, flick the mouse toward a slice, let go. Slices fire any of the game's controls or another mod's keybind, a shortcut-bar shortcut, a direct hotkey, chat commands, or equip a saved loadout. Nested bundles with their own keys, an in-game editor, import/export, and a remote API. Controls, hotkeys and commands need the FSE loader.",
       "repo": "https://github.com/watdafawx/ez-actions",
-      "version": "0.2.1",
-      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.2.1/ez-actions_0.2.1.zip",
-      "sha256": "19e9c1335ac43772c4f983d6c57d81806495cf1ec252455759218e253c08f28c",
+      "version": "0.2.2",
+      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.2.2/ez-actions_0.2.2.zip",
+      "sha256": "c4d9f5a91c8a315851ba35542a17fcf55c09533bf53e5693880cd064092a1072",
       "fse": "0.14.0",
       "plugins": [
         "std",
