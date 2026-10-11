@@ -6,9 +6,9 @@
       "author": "mtopfox",
       "description": "Helper characters that build your ghosts and clear deconstruction marks on their own like construction bots (hand-crafting what is missing), and mine, craft and fetch on order, from a panel (top left). With the fse loader they also chat through a free LLM and speak out loud, and ADA announces your milestones. Single player.",
       "repo": "https://github.com/watdafawx/ai-crew",
-      "version": "0.13.5",
-      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.13.5/ai-crew_0.13.5.zip",
-      "sha256": "643754f6d2d3d1e929db33a3091a67e6208c3d98b1c1bd966d94f19b64641f86",
+      "version": "0.14.0",
+      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.14.0/ai-crew_0.14.0.zip",
+      "sha256": "eb2f3e6f9e2e3f4cd2930d43cca0a38a91be32cb926fbadc3993c0889de6f294",
       "fse": "0.10.0",
       "plugins": [
         "py"
