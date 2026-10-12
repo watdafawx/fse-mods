@@ -44,9 +44,9 @@
       "author": "mtopfox",
       "description": "Ultimate Research Queue's GUI with Auto Research built in: queue technologies (prerequisites included) and, when the queue runs dry, pick the next research from your goals or by strategy, limited to the science packs you allow or actually produce. Fork of Ultimate Research Queue for 2.x and Auto Research (both MIT).",
       "repo": "https://github.com/watdafawx/smart-research-queue",
-      "version": "1.3.0",
-      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.3.0/smart-research-queue_1.3.0.zip",
-      "sha256": "88179568ce3eea5060bd815fd2b333543ed2394a7a6efdfdf7ac4b7b2ff7b2c6",
+      "version": "1.3.1",
+      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.3.1/smart-research-queue_1.3.1.zip",
+      "sha256": "176305f2e01714fc9c6d4ea1d5d3ed12c9f268aef05257d2e304dfc805257941",
       "fse": "0.1.0",
       "plugins": [],
       "dependencies": [
