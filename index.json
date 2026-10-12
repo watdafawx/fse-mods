@@ -62,14 +62,14 @@
       ]
     },
     {
-      "name": "trash-slot",
+      "name": "wx-trash-slot",
       "title": "Trash Slot",
       "author": "mtopfox",
       "description": "A trash slot attached to your inventory (port of the Minecraft mod TrashSlot). Hover a stack and press Delete to throw it in; the next delete destroys what was there. Shift+Delete throws in every stack of that item. Click the slot to take it back, Delete on it destroys it for good. The slot sits beside the window or floats anywhere; with FSE, drag it. Safe to add or remove at any time.",
       "repo": "https://github.com/watdafawx/trash-slot",
-      "version": "0.3.3",
-      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.3/trash-slot_0.3.3.zip",
-      "sha256": "9110938aee8b78807b683f7c2db1110a8856b1425ea947f93d55f4fa62a171e7",
+      "version": "0.3.4",
+      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.4/wx-trash-slot_0.3.4.zip",
+      "sha256": "6adc15046a5e9c98219740bccdd61342d10e508a0de6c6c354694340adcf8d98",
       "fse": "0.10.0",
       "plugins": [
         "std"
