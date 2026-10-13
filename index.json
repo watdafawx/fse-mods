@@ -6,16 +6,16 @@
       "author": "mtopfox",
       "description": "Helper characters that build your ghosts and clear deconstruction marks on their own like construction bots (hand-crafting what is missing), and mine, craft and fetch on order, from a panel (top left). With the fse loader they also chat through a free LLM and speak out loud, and ADA announces your milestones. Single player.",
       "repo": "https://github.com/watdafawx/ai-crew",
-      "version": "0.18.1",
-      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.18.1/ai-crew_0.18.1.zip",
-      "sha256": "9d7357b1f50fa47a917d5509aa22a01b684978c69b9d12d5fab7b3e032f119bc",
+      "version": "0.19.0",
+      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.19.0/ai-crew_0.19.0.zip",
+      "sha256": "b2385de746d7988bc5d6d752da5e5d56c08f9f7470f817749381d51110e9f90b",
       "fse": "0.10.0",
       "plugins": [
         "py"
       ],
       "dependencies": [
         "base >= 2.0",
-        "? fse-std >= 0.7.0"
+        "? fse-std >= 0.8.0"
       ],
       "pypath": true
     },
@@ -25,9 +25,9 @@
       "author": "mtopfox",
       "description": "A radial menu for anything you do often (port of the Minecraft mod EZ Actions by z2six). Hold U, flick the mouse toward a slice, let go. Slices fire any of the game's controls or another mod's keybind, a shortcut-bar shortcut, a direct hotkey, chat commands, or equip a saved loadout. Nested bundles with their own keys, an in-game editor, import/export, and a remote API. Controls, hotkeys and commands need the FSE loader.",
       "repo": "https://github.com/watdafawx/ez-actions",
-      "version": "0.3.0",
-      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.3.0/ez-actions_0.3.0.zip",
-      "sha256": "f5af8a42ad20a3771e754c742b34f433d20f7e89890baeb08afeeb90336f23ba",
+      "version": "0.4.0",
+      "url": "https://github.com/watdafawx/ez-actions/releases/download/v0.4.0/ez-actions_0.4.0.zip",
+      "sha256": "469bc1243092fd0aeff387c5dddaba55992934b58e92d97ad60aa9e39ef96356",
       "fse": "0.14.0",
       "plugins": [
         "std",
@@ -35,7 +35,7 @@
       ],
       "dependencies": [
         "base >= 2.0",
-        "? fse-std >= 0.7.0"
+        "? fse-std >= 0.8.0"
       ]
     },
     {
@@ -44,16 +44,16 @@
       "author": "mtopfox",
       "description": "Ultimate Research Queue's GUI with Auto Research built in: queue technologies (prerequisites included) and, when the queue runs dry, pick the next research from your goals or by strategy, limited to the science packs you allow or actually produce. Fork of Ultimate Research Queue for 2.x and Auto Research (both MIT).",
       "repo": "https://github.com/watdafawx/smart-research-queue",
-      "version": "1.4.0",
-      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.4.0/smart-research-queue_1.4.0.zip",
-      "sha256": "6676ff25c0e103ed16f51600643a959d0c4ea448c0cbf5ef2135436679ab1baa",
+      "version": "1.5.0",
+      "url": "https://github.com/watdafawx/smart-research-queue/releases/download/v1.5.0/smart-research-queue_1.5.0.zip",
+      "sha256": "cd81fdc3f95467aaaacb3f588350176f10ee244c2b80854cd8f64f0d97a31d35",
       "fse": "0.1.0",
       "plugins": [],
       "dependencies": [
         "base >= 2.0.28",
         "flib >= 0.16.1",
         "? RecipeBook >= 4.0.0",
-        "? fse-std >= 0.7.0",
+        "? fse-std >= 0.8.0",
         "! UltimateResearchQueue2",
         "! UltimateResearchQueue",
         "! sonaxaton-research-queue",
@@ -67,16 +67,16 @@
       "author": "mtopfox",
       "description": "A trash slot attached to your inventory (port of the Minecraft mod TrashSlot). Hover a stack and press Delete to throw it in; the next delete destroys what was there (one undo brings the last destroyed stack back). Shift+Delete throws in every stack of that item. Click the slot to take it back, Delete on it destroys it. The slot sits beside the window or floats anywhere; with FSE, drag it. Safe to add or remove at any time.",
       "repo": "https://github.com/watdafawx/trash-slot",
-      "version": "0.3.5",
-      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.5/wx-trash-slot_0.3.5.zip",
-      "sha256": "ea6f5eb4b0ddb218426cbce2ba9ef54726490cd9e6013df6d0332a934f8341b2",
+      "version": "0.3.6",
+      "url": "https://github.com/watdafawx/trash-slot/releases/download/v0.3.6/wx-trash-slot_0.3.6.zip",
+      "sha256": "8d451d8de9a9e9512cc405686b746cb25f7adde232a46bf3214a5d7ddc48d1ec",
       "fse": "0.10.0",
       "plugins": [
         "std"
       ],
       "dependencies": [
         "base >= 2.0",
-        "? fse-std >= 0.7.0"
+        "? fse-std >= 0.8.0"
       ]
     }
   ]
