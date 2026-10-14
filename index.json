@@ -6,9 +6,9 @@
       "author": "mtopfox",
       "description": "Helper characters that build your ghosts and clear deconstruction marks on their own like construction bots (hand-crafting what is missing), and mine, craft and fetch on order, from a panel (top left). With the fse loader they also chat through a free LLM and speak out loud, and ADA announces your milestones. Single player.",
       "repo": "https://github.com/watdafawx/ai-crew",
-      "version": "0.19.1",
-      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.19.1/ai-crew_0.19.1.zip",
-      "sha256": "49b3a467b6409712b13885b1507061b8c9136932cad7f4d6162f6a676b366968",
+      "version": "0.19.2",
+      "url": "https://github.com/watdafawx/ai-crew/releases/download/v0.19.2/ai-crew_0.19.2.zip",
+      "sha256": "731e2559947e2339032d981a783339856bb0620caaaafbb7213526791910a1bf",
       "fse": "0.10.0",
       "plugins": [
         "py"
@@ -51,6 +51,36 @@
       "dependencies": [
         "base >= 2.0",
         "? fse-std >= 0.8.0"
+      ]
+    },
+    {
+      "name": "pole-tidy",
+      "title": "Pole Tidy",
+      "author": "mtopfox",
+      "description": "Removes electric poles that other poles make redundant (as poles gain quality and cover more): a selection tool, and an optional auto mode when poles are upgraded. Never unpowers a building or splits a grid. Safe to add or remove at any time.",
+      "repo": "https://github.com/watdafawx/pole-tidy",
+      "version": "0.1.6",
+      "url": "https://github.com/watdafawx/pole-tidy/releases/download/v0.1.6/pole-tidy_0.1.6.zip",
+      "sha256": "bcf175eaddfb7aaf79c041ecadde7631af84ccf01452876c331376c5313ed733",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base >= 2.0"
+      ]
+    },
+    {
+      "name": "robo-grid",
+      "title": "Robo Grid",
+      "author": "mtopfox",
+      "description": "Grows your robot network on a square grid to wherever you build (or over an area you select): roboport ghosts edge-first, a pole chain to power each, construction bots requested for it. Tidies roboports made redundant as roboports gain quality. Safe to add or remove at any time.",
+      "repo": "https://github.com/watdafawx/robo-grid",
+      "version": "0.1.10",
+      "url": "https://github.com/watdafawx/robo-grid/releases/download/v0.1.10/robo-grid_0.1.10.zip",
+      "sha256": "86ec3a6b6fc39003f283eafe06345062dcf6bfbd4b55eb1f3b4c0c598af161fa",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base >= 2.0"
       ]
     },
     {
