@@ -25,9 +25,9 @@
       "author": "mtopfox",
       "description": "Pick up a section of your base and put it down somewhere else, as it is: buildings with what's in them, belts with their items, recipes, fluids and wires. Drag over it with the Carry tool, then click where it goes (R turns it). Instant, no robots.",
       "repo": "https://github.com/watdafawx/carry",
-      "version": "0.1.0",
-      "url": "https://github.com/watdafawx/carry/releases/download/v0.1.0/carry_0.1.0.zip",
-      "sha256": "17e327e5d58510e83c6b164fc6221f05e1eb5dd3c90103acc73572ff207b9638",
+      "version": "0.1.1",
+      "url": "https://github.com/watdafawx/carry/releases/download/v0.1.1/carry_0.1.1.zip",
+      "sha256": "8b5323d3f732e206dcb114a53263f8896b96af939335a58fdf3a0b20679c5ded",
       "fse": "0.1.0",
       "plugins": [],
       "dependencies": [
