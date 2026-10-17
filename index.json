@@ -59,9 +59,9 @@
       "author": "mtopfox",
       "description": "Removes electric poles that other poles make redundant (as poles gain quality and cover more): a selection tool, and an optional auto mode when poles are upgraded. Never unpowers a building or splits a grid. Safe to add or remove at any time.",
       "repo": "https://github.com/watdafawx/pole-tidy",
-      "version": "0.1.6",
-      "url": "https://github.com/watdafawx/pole-tidy/releases/download/v0.1.6/pole-tidy_0.1.6.zip",
-      "sha256": "bcf175eaddfb7aaf79c041ecadde7631af84ccf01452876c331376c5313ed733",
+      "version": "0.1.7",
+      "url": "https://github.com/watdafawx/pole-tidy/releases/download/v0.1.7/pole-tidy_0.1.7.zip",
+      "sha256": "917dc15d4d3cdae66ad720ffc705aa19620fa4cf4f962bb7826926c0f528f251",
       "fse": "0.1.0",
       "plugins": [],
       "dependencies": [
