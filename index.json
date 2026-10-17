@@ -69,6 +69,22 @@
       ]
     },
     {
+      "name": "replace-planner",
+      "title": "Replace Planner",
+      "author": "mtopfox",
+      "description": "An upgrade planner that replaces anything with anything: any building with any other (assembler with chemical plant, furnace with chest, any size) and floor tiles (stone path with concrete, concrete with refined concrete). Set X -> Y rows, drag over an area, robots do the swap. Shift-drag cancels. Safe to add or remove at any time.",
+      "repo": "https://github.com/watdafawx/replace-planner",
+      "version": "0.1.0",
+      "url": "https://github.com/watdafawx/replace-planner/releases/download/v0.1.0/replace-planner_0.1.0.zip",
+      "sha256": "4cfb3fb9f6b71d36f73c962da269cc08e03f575a9ace2112b86eea97dacf4017",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base >= 2.0",
+        "? fse-std >= 0.8.0"
+      ]
+    },
+    {
       "name": "robo-grid",
       "title": "Robo Grid",
       "author": "mtopfox",
