@@ -69,6 +69,22 @@
       ]
     },
     {
+      "name": "production-block",
+      "title": "Production Block",
+      "author": "mtopfox",
+      "description": "One big building that runs a whole production line: pick what to make and whether it starts from raw ore or from plates, feed it the raw inputs (items and fluids), and it outputs the product.",
+      "repo": "https://github.com/watdafawx/production-block",
+      "version": "0.6.0",
+      "url": "https://github.com/watdafawx/production-block/releases/download/v0.6.0/production-block_0.6.0.zip",
+      "sha256": "39f12d8900de2d788e0acabedf54720d2c6f2e21909e0b4eff0b5ab265675d35",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base >= 2.0",
+        "? fse-std >= 0.8.0"
+      ]
+    },
+    {
       "name": "replace-planner",
       "title": "Replace Planner",
       "author": "mtopfox",

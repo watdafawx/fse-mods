@@ -1,7 +1,7 @@
 """python add.py <repo clone> [--dry-run]: put a mod's current version into index.json.
 
 The clone is the mod's public repo (its root holds info.json), at the commit to release. add.py zips that commit
-(git archive: <name>/ at the top, without test/), makes the GitHub release v<version> on the repo with the zip as its
+(git archive: <name>/ at the top, without test/ and art/ (sources)), makes the GitHub release v<version> on the repo with the zip as its
 asset (gh), and writes the entry (url, sha256, info.json fields) into index.json. Fields only the index has (fse,
 plugins, pypath, repo) are kept from the entry already there; set them by hand for a new mod. Then commit and push
 this repo: players see the version once index.json on main lists it.
@@ -32,7 +32,7 @@ def main():
     zip_name = f"{name}_{version}.zip"
     out = HERE / "out" / zip_name
     out.parent.mkdir(exist_ok=True)
-    run("git", "archive", "--format=zip", f"--prefix={name}/", "-o", str(out), "HEAD", "--", ".", ":(exclude)test",
+    run("git", "archive", "--format=zip", f"--prefix={name}/", "-o", str(out), "HEAD", "--", ".", ":(exclude)test", ":(exclude)art",
         cwd=clone)
     sha = hashlib.sha256(out.read_bytes()).hexdigest()
     url = f"https://github.com/{repo}/releases/download/v{version}/{zip_name}"
