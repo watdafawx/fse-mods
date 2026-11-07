@@ -170,6 +170,27 @@
         "base >= 2.0",
         "? fse-std >= 0.8.0"
       ]
+    },
+    {
+      "name": "zz-mod-patches-late",
+      "title": "Mod Patches - late (local)",
+      "author": "mtopfox",
+      "description": "Local fixes that must run after every other mod. Optional dep on omniab-space-age-compat (currently the last final-fixes loader) keeps it last.",
+      "repo": "https://github.com/watdafawx/zz-mod-patches-late",
+      "version": "0.2.0",
+      "url": "https://github.com/watdafawx/zz-mod-patches-late/releases/download/v0.2.0/zz-mod-patches-late_0.2.0.zip",
+      "sha256": "841b6a05ecbb71cb7e04261da97fa4c9b4b807997027e313aef6554db971348c",
+      "fse": "0.1.0",
+      "plugins": [],
+      "dependencies": [
+        "base",
+        "(?) omniab-space-age-compat",
+        "(?) Quantum-Logistics",
+        "(?) disco-science-lite",
+        "(?) power-propagation",
+        "(?) planetaris-arig",
+        "(?) compute-science"
+      ]
     }
   ]
 }
